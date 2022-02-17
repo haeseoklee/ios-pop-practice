@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		08B3246027BE810600F05D28 /* Chargerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3245F27BE810600F05D28 /* Chargerable.swift */; };
+		08B3246227BE81E600F05D28 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B3246127BE81E600F05D28 /* MacBook.swift */; };
 		1C7B847327BE804D001546B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B847227BE804D001546B2 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		08B3245F27BE810600F05D28 /* Chargerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargerable.swift; sourceTree = "<group>"; };
+		08B3246127BE81E600F05D28 /* MacBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
 		1C7B846F27BE804D001546B2 /* ios-pop-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ios-pop-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7B847227BE804D001546B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			children = (
 				1C7B847227BE804D001546B2 /* main.swift */,
 				08B3245F27BE810600F05D28 /* Chargerable.swift */,
+				08B3246127BE81E600F05D28 /* MacBook.swift */,
 			);
 			path = "ios-pop-practice";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B3246027BE810600F05D28 /* Chargerable.swift in Sources */,
+				08B3246227BE81E600F05D28 /* MacBook.swift in Sources */,
 				1C7B847327BE804D001546B2 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
