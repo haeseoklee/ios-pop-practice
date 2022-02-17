@@ -13,7 +13,7 @@ struct MacBook {
     var maxmAh: Double
     
     func chargeBattery(charger: Chargerable) {
-        let result = maxmAh - currentmAh / charger.chargemAhPerHour
+        let result = (maxmAh - currentmAh) / charger.chargemAhPerHour
         
         print(result)
     }

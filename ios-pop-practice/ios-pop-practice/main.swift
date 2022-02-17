@@ -9,3 +9,8 @@ import Foundation
 
 print("Hello, World!")
 
+let mac = MacBook(mAhPerHour: 30, currentmAh: 10, maxmAh: 100)
+let ch = Charger(chargemAhPerHour: 30)
+
+ch.convert(chargeablemAhPerHour: mac.mAhPerHour)
+mac.chargeBattery(charger: ch)
